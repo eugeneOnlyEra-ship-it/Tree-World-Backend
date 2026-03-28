@@ -1,0 +1,17 @@
+{
+  "classes": [
+    "black_soil",
+    "cinder_soil",
+    "laterite_soil",
+    "peat_soil",
+    "yellow_soil"
+  ],
+  "class_to_idx": {
+    "black_soil": 0,
+    "cinder_soil": 1,
+    "laterite_soil": 2,
+    "peat_soil": 3,
+    "yellow_soil": 4
+  },
+  "num_classes": 5
+}
