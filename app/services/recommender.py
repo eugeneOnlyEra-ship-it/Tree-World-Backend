@@ -16,7 +16,7 @@ from groq import AsyncGroq
 
 logger = logging.getLogger(__name__)
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "llama-3.1-8b-instant"
 
 SYSTEM_PROMPT = """You are an expert agroforestry and reforestation scientist specialising in 
 climate change mitigation through tree planting. Your role is to recommend the best tree species 
