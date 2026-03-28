@@ -14,8 +14,7 @@ class Settings(BaseSettings):
     def origins_list(self) -> list[str]:
         return [o.strip() for o in self.allowed_origins.split(",")]
 
-    class Config:
-        env_file = ".env"
+    model_config = {"env_file": ".env", "protected_namespaces": ("settings_",)}
 
 
 @lru_cache
